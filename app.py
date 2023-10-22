@@ -21,15 +21,16 @@ prompt = ctk.CTkEntry(height=50, width=580, text_color="black", fg_color="white"
 # Place prompt box
 prompt.place(x=10, y=10)
 
-# Create main
-lmain = ctk.CTkLabel(height=500, width=580, fg_color="blue", master=app) # (Blue is a placeholder colour)
-# Place main
-lmain.place(x=10, y=60)
-
 # Create button
 button = ctk.CTkButton(height=30, width=130, text="Submit", fg_color="green", master=app) # (Green is a placeholder colour)
 # Place button
-button.place(x=235, y=565)
+button.place(x=235, y=65)
+
+# Create main
+lmain = ctk.CTkLabel(height=480, width=580, fg_color="blue", master=app) # (Blue is a placeholder colour)
+# Place main
+lmain.place(x=10, y=100)
+
 
 app.mainloop()
                       

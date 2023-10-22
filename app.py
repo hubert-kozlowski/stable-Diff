@@ -27,7 +27,7 @@ lmain = ctk.CTkLabel(height=500, width=580, fg_color="blue", master=app) # (Blue
 lmain.place(x=10, y=60)
 
 # Create button
-button = ctk.CTkButton(height=30, width=130, text="Submit", master=app)
+button = ctk.CTkButton(height=30, width=130, text="Submit", fg_color="green", master=app) # (Green is a placeholder colour)
 # Place button
 button.place(x=235, y=565)
 

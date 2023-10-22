@@ -29,7 +29,7 @@ lmain.place(x=10, y=60)
 # Create button
 button = ctk.CTkButton(height=30, width=130, text="Submit", master=app)
 # Place button
-button.place(x=235, y=570)
+button.place(x=235, y=565)
 
 app.mainloop()
                       
